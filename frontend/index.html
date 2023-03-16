@@ -46,7 +46,11 @@ Al click su un disco, recuperare e mostrare i dati del disco selezionato.
 </head>
 
 <body>
-
+    <div id="app">
+        <ul v-for="disc in discDetails">
+            <li v-for="(detail,disc) in disc">{{disc}} : {{detail}}</li>
+        </ul>
+    </div>
 </body>
 
 </html>
