@@ -1,1 +1,13 @@
-n
+const { createApp } = Vue;
+
+createApp({
+    data() {
+        return {
+
+        };
+    },
+
+    methods: {
+
+    },
+}).mount("#root");
